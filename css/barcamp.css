@@ -54,34 +54,9 @@ div#content dl dd {
 	line-height: 1.4em;
 }
 
-div#content dl dl dt {
-	margin: 0.75em 0 0.2em 0;
-	padding: 0;
-	font-size: 100%;
-	color: #000;
-	background: none;
-}
-
-div#content dl dl dd {
-	margin: 0;
-	font-size: 100%;
-	line-height: 100%;
-}
-
-div#content dl ul { padding: 0; }
-
-div#content dl ul li {
-	display: inline;
-	margin: 0;
-	font-size: 100%;
-	line-height: 1.2em;
-}
-
 dd.vcard span.summary { font-weight: bold; }
 dd.vcard span.adr, dd.vcard span.street-address { display: block; }
-span.geo { display: none; }
-
-div#content dl#transportation dt { margin-top: 1em; font-size: 1.2em; }
+span.geo { font-size: 80%; font-style: italic; color: #949494; }
 
 div#map {
 	float: right;
@@ -91,47 +66,17 @@ div#map {
 	border: 0.2em solid #000;
 }
 
-ul#metrorail li img {
-	width: 0.7em;
-	height: auto;
-	padding: 0 0.1em 0 0;
-	vertical-align: baseline;
-}
-
 div.box { clear: both; border: 0.2em solid #eee; margin: 0 0 3em 0; }
 
-form#donation-form { padding: 0.75em; }
-form#donation-form label { float: left; margin-right: 1em; padding-top: 0.25em; font-size: 1.4em; }
-form#donation-form input { vertical-align: middle; }
-form#donation-form img { display: none; }
-form#donation-form p { clear: both; margin-top: 1em; font-size: 1.2em; line-height: 1.4em; font-style: italic; color: #777; }
-/* form#donation-form p.note { font-size: 1.4em; color: #e00; } */
-form#donation-form p del { text-decoration: line-through; }
-form#donation-form p ins { text-decoration: none; color: #000; }
+div.box p {
+	padding: 0.75em;
+	font-size: 1.4em;
+}
 
 div#sponsors ul li, div#actions ul li { display: inline; }
 
-/* div#actions ul li img {
-	width: 1.2em;
-	height: auto;
-	padding: 0 0.2em;
-	vertical-align: middle;
-} */
-
 div#footer p { font-size: 1.4em; }
 div#footer p img { padding-right: 0.2em; vertical-align: text-bottom; }
-
-div#thanks {
-	border: 0.2em solid #0c0;
-	margin: 0 0 3em 0;
-	padding: 1.5em;
-	background: #d9f7d9;
-}
-
-div#thanks p {
-	font: 1.6em "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #0a0;
-}
 
 p.update {
 	border: 0.2em solid #0c0;
