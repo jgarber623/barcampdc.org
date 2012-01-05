@@ -62,7 +62,7 @@
 			<ul>
 				<li class="vcard"><a href="http://openhost.biz/">OpenHost</a></li>
 				<li class="vcard"><a href="http://opower.com/">OPOWER</a></li>
-				<li class="vcard"><a href="http://www.rackspacecloud.com/">The Rackspace Cloud</a></li>
+				<li class="vcard"><a href="http://www.rackspace.com/cloud">Rackspace</a></li>
 				<li class="vcard"><a href="http://www.rockcreeksm.com/">Rock Creek Strategic Marketing</a></li>
 				<li class="vcard"><a href="http://skeevisarts.com/">skeevisArts</a></li>
 				<li class="vcard"><a href="http://www.sunlightfoundation.com/">Sunlight Foundation</a></li>
