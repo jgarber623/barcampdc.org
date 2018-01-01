@@ -1,0 +1,89 @@
+/* ----- Generic styles --------------------------------------------------*/
+* { margin: 0; padding: 0; }
+
+body {
+	padding: 4em 0;
+	font: 62.5% "Lucida Grande", Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #000;
+	background: #fff;
+}
+
+abbr { border-bottom: 1px dotted #000; }
+
+strong { font-weight: bold; }
+em { font-style: italic; }
+
+a { padding: 0.1em; text-decoration: underline; color: #00d; }
+a:hover { color: #fff; text-decoration: none; background: #00d; }
+
+
+/* ----- Layout ----------------------------------------------------------*/
+div#wrap { width: 90em; margin: 0 auto; text-align: left; }
+div#header { margin-bottom: 4em; }
+div#header h1 { font-size: 1em; }
+div#header h1 img { width: 32.3em; height: auto; }
+div#content { margin-bottom: 4em; }
+
+div#content h3 {
+	padding: 0.2em 0.4em;
+	font: bold 2em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #000;
+	background: #eee;
+}
+
+div#content ul { padding: 0.75em; list-style: none; }
+
+div#content ul li {
+	margin: 0 0 0.25em 0;
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+div#content dl dt {
+	margin: 0 0 0.5em 0;
+	padding: 0.2em 0.4em;
+	font: bold 2.5em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #fff;
+	background: #000;
+}
+
+div#content dl dd {
+	margin: 0 0.75em 2em 0.75em;
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+dd.vcard span.summary { font-weight: bold; }
+dd.vcard span.adr, dd.vcard span.street-address { display: block; }
+span.geo { font-size: 80%; font-style: italic; color: #949494; }
+
+div#map {
+	float: right;
+	width: 30em;
+	height: 17em;
+	margin: 0 0 2em 2em;
+	border: 0.2em solid #000;
+}
+
+div.box { clear: both; border: 0.2em solid #eee; margin: 0 0 3em 0; }
+
+div.box p {
+	padding: 0.75em;
+	font-size: 1.4em;
+}
+
+div#sponsors ul li, div#actions ul li { display: inline; }
+
+div#footer p { font-size: 1.4em; }
+div#footer p img { padding-right: 0.2em; vertical-align: text-bottom; }
+
+p.update {
+	border: 0.2em solid #0c0;
+	margin-bottom: 3em;
+	padding: 1em;
+	font-size: 1.4em;
+	line-height: 1.4em;
+	color: #0a0;
+	background: #d9f7d9;
+}

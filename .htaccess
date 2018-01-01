@@ -1,6 +1,0 @@
-RewriteEngine On
-
-RewriteCond %{HTTP_HOST} ^www\.barcampdc\.org$ [NC]
-RewriteRule ^(.*)$ http://barcampdc.org/$1 [L,R=301]
-
-AddHandler php5-script .php
